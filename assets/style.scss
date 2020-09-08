@@ -1,0 +1,81 @@
+.body{
+    margin: 0px;
+}
+.header{
+    margin: 0;
+    height: 60px;
+    text-align: center;
+    
+  
+  &__text {
+    margin-top:10px;
+    color:rgb(250, 189, 110);
+    font-size:xx-large;
+  }
+}
+  
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(88, 92, 92);
+    height: 88vh;
+  
+  &__find{
+    width: 800px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  &__text{
+    font-style: italic;
+    color:white;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  &__input{
+    background: rgb(207, 207, 207);
+    padding: 0 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 360px;
+    float: left;
+  }
+  &__test1,
+  &__test2{
+    margin-top: 30px;
+  }
+
+}
+.table{
+  &__header{
+        margin-top: 20px;
+        display: flex;
+    }
+    &__header p{
+        margin-right: 43px;
+        color: azure;
+    }
+    &__header:first-child{
+        margin-left: 10px;
+    }
+
+    &__item{
+        width: 750px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #e7e7e7;
+        border-radius: 10px;
+        margin-top: 10px;
+
+    &-row{
+        text-align: right;
+        margin-left: 25px;
+        font-size: larger;
+        color: azure;
+    }
+    &-weatherDesc{
+        margin-right: 30px;
+    }
+  }
+}
