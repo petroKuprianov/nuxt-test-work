@@ -2,7 +2,7 @@
   "name": "nuxt-test-work",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://petrokuprianov.github.io/test_work_nuxt",
+  "homepage": "https://petrokuprianov.github.io/test_work_nuxt-",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
