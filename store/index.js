@@ -58,7 +58,7 @@ const createStore = () =>{
       },
       
       GET_ELEMENTS_FROM_API ({ commit }) {
-        return axios('http://api.openweathermap.org/data/2.5/weather?q='+this.state.searchValue +'&appid=f9d39011acd0d4b5209d1ffa3605ec53', {
+        return axios('https://api.openweathermap.org/data/2.5/weather?q='+this.state.searchValue +'&appid=f9d39011acd0d4b5209d1ffa3605ec53', {
           method: 'GET'
         })
           .then((city) => {
