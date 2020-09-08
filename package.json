@@ -2,20 +2,24 @@
   "name": "nuxt-test-work",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://petrokuprianov.github.io/test_work_nuxt",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy":"gh-pages -d dist"
+    
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.0",
     "fs": "0.0.1-security",
+    "gh-pages": "^3.1.0",
     "jspdf": "^2.1.1",
     "jspdf-autotable": "^3.5.12",
     "nuxt": "^2.14.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
+    "vue-router": "^3.4.3",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
